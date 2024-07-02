@@ -37,7 +37,6 @@ body {
 .sat {
   width: 14rem;
   height: 12rem;
-  padding: 2rem;
   border: 0.1px solid gray;
   background-color: #11152c;
 }
@@ -203,9 +202,11 @@ body {
 }
 .card-style:hover {
   transition: transform 0.5s ease-in-out; /* Adjust timing and easing as needed */
-  transform: scale(1.1); /* Scale up to 1.1 on hover */
+  transform: scale(1.1);
 }
-
+.ff-pp {
+  font-family: Pp Neue Machina !important;
+}
 .card-body {
   background-color: #12172a !important;
 }
@@ -223,7 +224,6 @@ body {
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  /* box-shadow: 0 0 20px #eee; */
   border-radius: 10px;
   display: block;
 }
