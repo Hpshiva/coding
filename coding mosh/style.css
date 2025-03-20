@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+}
 .w-15 {
   width: 15px;
 }
@@ -10,12 +14,12 @@ body {
 
 #home {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #0d1224;
   background-image: url(bg-grid-lighter.4c1e8196.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   padding-top: 4rem;
 }
 
@@ -42,11 +46,11 @@ body {
 }
 .sat:hover {
   border: none !important;
-  scale: 1.1;
-  filter: drop-shadow(0.3rem 0.2rem 0.2rem rgba(24, 209, 255, 0.5));
+  /* scale: 1.1; */
+  /* filter: drop-shadow(0.3rem 0.2rem 0.2rem rgba(24, 209, 255, 0.5)); */
 }
 .sat:hover:nth-child(2n) {
-  filter: drop-shadow(0.3rem 0.2rem 0.2rem rgba(247, 24, 255, 0.5));
+  /* filter: drop-shadow(0.3rem 0.2rem 0.2rem rgba(247, 24, 255, 0.5)); */
 }
 
 .GET:hover {
@@ -84,9 +88,8 @@ body {
     rgba(103, 8, 200, 1) 100%
   );
 }
-.taj {
-  text-align: justify;
-}
+
+
 .border-dark {
   /* border: 2px solid red !important; */
   background: rgb(17, 21, 44);
@@ -200,10 +203,10 @@ body {
 .card-style {
   border: 0px solid transparent !important;
 }
-.card-style:hover {
+/* .card-style:hover {
   transition: transform 0.8s ease-in;
   transform: scale(1.1);
-}
+} */
 
 .card-body {
   background-color: #12172a !important;
@@ -282,6 +285,7 @@ a {
 /*  ``````````````````    blink  ````````````````````` */
 @media (min-width: 320px) and (max-width: 480px) {
   #home {
+    height: 100%;
     padding-top: 0rem;
   }
   .text-1 {
@@ -331,5 +335,8 @@ a {
     margin-top: 130px !important;
   }
 }
-/*   
-                                           ````` */
+
+a i{
+  color: linear-gradient( to right, #da22ff 0%, #9733ee 51%, #da22ff 100% ) !important;
+
+}
